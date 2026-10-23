@@ -1,233 +1,145 @@
-<!doctype html>
-<html lang="th" data-bs-theme="light">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>HOME|Personal collections</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS v5.3.8 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <meta name="description" content="หนัง เพลง หนังสือ และของที่ชอบ กลับมาดูเมื่อไรก็ยังชอบอยู่" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&amp;family=Noto+Sans+Thai:wght@400;500;600&amp;display=swap" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection · Matchbox Labels (Visual Noise)</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;600&family=Big+Shoulders+Display:wght@700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
-<body id="top">
-    <a class="skip-link" href="#main">ข้ามไปเนื้อหา</a>
+<body>
     <header class="site-header">
-        <!-- place navbar here -->
-        <!-- place navbar here -->
-        <header class="site-header">
-            <nav class="navbar navbar-expand-md navbar-light" aria-label="เมนูหลัก">
-                <!-- เติม: กรอบเมนู -->
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">Personal
-                        Collection</a>
-                    <!-- เติม: ปุ่มเปิดเมนู -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav"
-                        aria-controls="mainNav" aria-label="เปิดเมนู">
-                        <i class="icon" data-lucide="menu" aria-hidden="true"></i>
-                    </button>
-                    <!-- เติม: offcanvas-md -->
-                    <div class="offcanvas-md offcanvas-end" tabindex="-1" id="mainNav" aria-labelledby="menuTitle">
-                        <!-- เติม: หัวเมนูมือถือ -->
-                        <div class="offcanvas-header">
-                            <span id="menuTitle">Personal Collection</span>
-                            <button class="menu-close" type="button" data-bs-dismiss="offcanvas"
-                                data-bs-target="#mainNav" aria-label="ปิดเมนู">
-                                <i class="icon" data-lucide="x" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                        <!-- เติม: เนื้อหาเมนู -->
-                        <div class="offcanvas-body">
-                            <!-- เติม: รายการลิงก์ -->
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="index.html" aria-current="page">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="story.html">Story</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="collection.html">Collection</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-                            </ul>
-
-                            <!-- เติม: ช่องทางติดต่อในเมนู -->
-                            <div class="mobile-contact">
-                                <a class="menu-email email-link" href="mailto:hello@example.com">
-                                    <i class="icon" data-lucide="mail" aria-hidden="true"></i>
-                                    <span>hello@example.com</span>
-                                </a>
-                                <div class="menu-socials">
-                                    <a href="https://www.instagram.com/" target="_blank"
-                                        rel="noopener noreferrer">Instagram</a>
-                                    <a href="https://www.behance.net/" target="_blank"
-                                        rel="noopener noreferrer">Behance</a>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </nav>
-        </header>
+        <a class="logo" href="#">MATCH<span>BOX</span> // NOISE</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Story</a></li>
+                <li><a class="active" href="#">Collection</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
     </header>
-    <main id="main" tabindex="-1">
-        <main id="main" tabindex="-1">
-            <!-- เติม: ภาพและหัวเรื่อง Home -->
-            <section class="home-hero container">
-                <div class="row hero-row">
-                    <div class="col-lg-6 hero-copy">
-                        <h1>
-                            NAT_NATTHIKA
-                            <br />
-                            <em>keep close.</em>
-                        </h1>
-                        <a class="btn btn-dark" href="collection.html">
-                            Collection
-                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 hero-art">
-                        <img class="hero-books" src="assets\images\images\home\bookshop-shelves.jpg"
-                            alt="ชั้นหนังสือในร้านหนังสือ" />
-                        <img class="hero-records" src="assets\images\images\home\record-player.jpg"
-                            alt="เครื่องเล่นแผ่นเสียงกับแผ่นเพลง" />
-                        <img class="hero-camera" src="assets\images\images\home\film-camera-cutout.png"
-                            alt="กล้องฟิล์มแบบตัดพื้นหลัง" />
-                    </div>
-                </div>
-            </section>
-            <!-- เติม: ส่วน A day off -->
-            <main id="main" tabindex="-1">
-                <!-- เติม: ภาพและหัวเรื่อง Home -->
 
-                <section class="home-links container">
-                    <!-- เติม: row -->
-                    <section class="home-links container">
+    <main>
+        <section class="intro">
+            <p class="eyebrow">⚡ Visual Noise Collection · 9 ชิ้น</p>
+            <h1>Matchbox Labels</h1>
+            <p class="lead">ฉลากกล่องไม้ขีดไฟที่เก็บจากตลาดนัดและร้านของเก่า แต่ละแผ่นกว้างเพียง
+                36&nbsp;×&nbsp;52&nbsp;มม.
+                แต่ใช้สี รูปทรง และตัวอักษรได้เต็มพื้นที่แบบไม่มีกั๊ก</p>
+            <ul class="filters">
+                <li><a class="active" href="#">ทั้งหมด</a></li>
+                <li><a href="#">ท้องฟ้า</a></li>
+                <li><a href="#">ธรรมชาติ</a></li>
+                <li><a href="#">เรขาคณิต</a></li>
+            </ul>
+        </section>
 
-                        <div class="row gx-lg-5 gy-5">
-                            <!-- เติม: col-md-7 -->
-                            <div class="col-md-7">
-                                <a class="story-preview" href="story.html">
-                                    <div class="preview-heading">
-                                        <h2>
-                                            A day
-                                            <br />
-                                            off.
-                                        </h2>
-                                        <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
-                                    </div>
-                                    <img class="preview-image" src="assets\images\images\home\polaroid-sx-70.jpg"
-                                        alt="กล้อง Polaroid SX-70 แบบพับได้" loading="lazy" />
-                                </a>
-                            </div>
-                            <!-- เติม: col-md-5 -->
-                            <div class="col-md-5 home-note">
-                                <h2>
-                                    Not quite
-                                    <br />
-                                    a shelf.
-                                </h2>
-                                <p>
-                                    มีทั้งหนังที่ดูซ้ำ เพลงที่เปิดวน หนังสือที่ยังอ่านไม่จบ
-                                    แล้วก็ของที่แค่เห็นรูปก็อยากลองจับ พอเอามารวมกัน
-                                    เลยกลายเป็นมุมเล็ก ๆ
-                                    ของสิ่งที่ชอบ
-                                </p>
-                                <a class="text-link" href="about.html">
-                                    About me
-                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
-                                </a>
-                            </div>
+        <section class="featured">
+            <img src="images/label-01.jpg" alt="ฉลาก Sunrise พื้นเหลือง พระอาทิตย์สีแดงกำลังขึ้น">
+            <div class="featured-text">
+                <p class="eyebrow">ชิ้นโปรด No.01</p>
+                <h2>Sunrise</h2>
+                <p>ชิ้นแรกที่เริ่มเก็บ เจอในกล่องของเก่าที่ตลาดนัด พระอาทิตย์ครึ่งดวงกับเส้นรัศมี 13 เส้น ใช้แค่สามสี
+                    แต่อ่านออกได้จากระยะไกล</p>
+                <ul class="meta">
+                    <li><b>ปี</b> 2518</li>
+                    <li><b>หมวด</b> ท้องฟ้า</li>
+                    <li><b>จำนวนก้าน</b> 40</li>
+                </ul>
+            </div>
+        </section>
 
-                        </div>
+        <section class="gallery">
+            <h2 class="section-title">✨ แกลเลอรีแบบสลับขั้วความวุ่นวาย</h2>
+            <div class="grid">
+                <figure class="card c-1">
+                    <img src="images/label-01.jpg" alt="ฉลาก Sunrise พระอาทิตย์สีแดงบนพื้นเหลือง">
+                    <figcaption>
+                        <span class="no">No.01</span>
+                        <h3>Sunrise</h3>
+                        <p>ท้องฟ้า · 2518</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-2">
+                    <img src="images/label-02.jpg" alt="ฉลาก Night Star ดาวสีเหลืองบนพื้นน้ำเงิน">
+                    <figcaption>
+                        <span class="no">No.02</span>
+                        <h3>Night Star</h3>
+                        <p>ท้องฟ้า · 2521</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-3">
+                    <img src="images/label-03.jpg" alt="ฉลาก Crescent พระจันทร์เสี้ยวบนพื้นดำ">
+                    <figcaption>
+                        <span class="no">No.03</span>
+                        <h3>Crescent</h3>
+                        <p>ท้องฟ้า · 2516</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-4">
+                    <img src="images/label-04.jpg" alt="ฉลาก Wave เส้นคลื่นสีน้ำเงิน">
+                    <figcaption>
+                        <span class="no">No.04</span>
+                        <h3>Wave</h3>
+                        <p>ธรรมชาติ · 2524</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-5">
+                    <img src="images/label-05.jpg" alt="ฉลาก Mountain ภูเขาสองลูกบนพื้นแดง">
+                    <figcaption>
+                        <span class="no">No.05</span>
+                        <h3>Mountain</h3>
+                        <p>ธรรมชาติ · 2519</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-6">
+                    <img src="images/label-06.jpg" alt="ฉลาก Bloom ดอกไม้กลีบแดง">
+                    <figcaption>
+                        <span class="no">No.06</span>
+                        <h3>Bloom</h3>
+                        <p>ธรรมชาติ · 2527</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-7">
+                    <img src="images/label-07.jpg" alt="ฉลาก Diamond ลายข้าวหลามตัดสีดำ">
+                    <figcaption>
+                        <span class="no">No.07</span>
+                        <h3>Diamond</h3>
+                        <p>เรขาคณิต · 2522</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-8">
+                    <img src="images/label-08.jpg" alt="ฉลาก Stripe ลายเส้นทแยงบนพื้นแดง">
+                    <figcaption>
+                        <span class="no">No.08</span>
+                        <h3>Stripe</h3>
+                        <p>เรขาคณิต · 2525</p>
+                    </figcaption>
+                </figure>
+                <figure class="card c-9">
+                    <img src="images/label-09.jpg" alt="ฉลาก Target วงกลมซ้อนสีแดงบนพื้นน้ำเงิน">
+                    <figcaption>
+                        <span class="no">No.09</span>
+                        <h3>Target</h3>
+                        <p>เรขาคณิต · 2520</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
 
-                    </section>
-                </section>
-
-            </main>
-        </main>
+        <footer class="site-footer">
+            <p>68006540 นางสาว ณัฏฐิกา คล้ายมณี </p>
+            <p>GAD23867 Coding for Graphic Design </p>
+        </footer>
 
     </main>
-    <footer>
-        <!-- place footer here -->
-        <footer class="site-footer">
-            <!-- เติม: คอลัมน์ท้ายเว็บ -->
-            <div class="footer-main">
-                <!-- เติม: footer-brand -->
-                <a class="footer-brand" href="index.html">
-                    Personal
-                    <br />
-                    Collection
-                </a>
-                <!-- เติม: nav -->
-                <nav aria-label="เมนูท้ายหน้า">
-                    <h2>Navigation</h2>
-                    <a href="index.html">Home</a>
-                    <a href="story.html">Story</a>
-                    <a href="collection.html">Collection</a>
-                    <a href="about.html">About</a>
-                </nav>
-
-                <!-- เติม: ช่องทางติดต่อ -->
-
-                <div class="footer-contact">
-                    <h2>Contact</h2>
-                    <!-- เติม: a -->
-
-
-                    <a href="mailto:hello@example.com">
-                        <i class="icon" data-lucide="mail" aria-hidden="true"></i>
-                        <span>hello@example.com</span>
-                    </a>
-                    <!-- เติม: ลิงก์โซเชียล -->
-
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                            Instagram
-                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
-                            Behance
-                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                            GitHub
-                            <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- เติม: แถวลิขสิทธิ์ -->
-
-            <div class="footer-bottom">
-                <span>© 2026 Personal Collection</span>
-                <a href="#top">
-                    Back to top
-                    <i class="icon" data-lucide="arrow-up" aria-hidden="true"></i>
-                </a>
-            </div>
-        </footer>
-    </footer>
-    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="js/main.js"></script>
-
 </body>
 
 </html>

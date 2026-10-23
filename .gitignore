@@ -72,3 +72,8 @@ node_modules/
 
 .vercel
 .firebase
+   __MACOSX/
+   .DS_Store
+   git init
+   git add .
+   git commit -m "first commit"git status
